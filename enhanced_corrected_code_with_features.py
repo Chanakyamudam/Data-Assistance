@@ -20,7 +20,11 @@ import pickle
 from fpdf import FPDF
 
 # Initialize API key, tokenizer, and model
-apikey = "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"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+apikey = os.getenv("HF_API_KEY")
 model_name = "gpt2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)

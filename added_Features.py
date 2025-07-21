@@ -10,7 +10,12 @@ import base64
 import pdfkit
 
 # Define your Hugging Face API key here
-apikey = "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"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+apikey = os.getenv("HF_API_KEY")
+
 
 # Initialize the tokenizer and model
 model_name = "gpt2"  # Replace with the model you need
