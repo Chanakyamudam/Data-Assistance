@@ -1,0 +1,55 @@
+# === Python bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# === Secret Keys & Environment Files ===
+.env
+.env.*
+apikey.py
+hugging_face.py
+openai_key.py
+*.key
+*.pem
+*.crt
+
+# === IDE and Editor Configs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === System/OS Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# === Log files and Reports ===
+*.log
+*.out
+*.err
+
+# === Build and Distribution ===
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# === Cache & Testing ===
+.
