@@ -1,4 +1,3 @@
-# Replace secrets
-OPENAI_API_KEY==>***REMOVED***
-hf_==>***REMOVED***
-sk-==>***REMOVED***
+HuggingFaceToken==REDACTED
+hf_****************==REDACTED
+sk-****************==REDACTED
